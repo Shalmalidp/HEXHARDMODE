@@ -7,7 +7,7 @@ var hours = time.getHours().toString(16).toUpperCase();
 var minutes = time.getMinutes();
 var seconds = time.getSeconds();
 //var textNode;
-ar hours = (hours <10) ? "0"+ hours: hours;
+var hours = (hours <10) ? "0"+ hours : hours;
 var digit_min = (minutes <10) ? "0"+ minutes : minutes;
 var digit_sec = (seconds < 10) ? "0" + seconds : seconds;
 ;
