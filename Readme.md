@@ -1,4 +1,4 @@
-## Created a Hex clock and changing the background of the container to the hex value of the current time 
+## Created a Hex clock and changing the background of the container to the hex value of the current time without #displayed
 ```
 window.setInterval(function(){
 var time = new Date();
@@ -18,8 +18,8 @@ var hex = '#' + display;
 
 // console.log(hex);
 
- $('.clock-body').text(hex).css('background-color',hex).css('color','white');
+ $('.clock-body').text(display).css('background-color',hex).css('color','white');
 },1000); 
 ```
 
-###Link to my Project : http://shalmalidp.github.io/HEXCLOCK/
+###Link to my Project : http://hexclock-hardmode-nohash-colorchange.surge.sh
