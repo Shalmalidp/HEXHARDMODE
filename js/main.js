@@ -24,7 +24,7 @@ var hex = '#' + display;
 // console.log(hex);
 // console.log(hex2);
 //var textNode= document.createTextNode(currenttime);
- $('.clock-body').text(hex).css('background-color',hex).css('color','white');
+ $('.clock-body').text(display).css('background-color',hex).css('color','white');
 },1000);
 
 
